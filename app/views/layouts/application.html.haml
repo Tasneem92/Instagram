@@ -16,8 +16,7 @@
           %ul.nav.navbar-nav.navbar-left
             %li= link_to "Gram it!", new_pic_path
             %li= link_to "Settings", edit_user_registration_path
-            %li= link_to "Sign Out", destroy_user_session_path, method: :delete
-            data: { confirm: "Are you sure?" }
+            %li= link_to "Sign Out", destroy_user_session_path, method: :delete, data: { confirm: "Are you sure?" }
 
         - else
           %ul.nav.navbar-nav.navbar-left
