@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'jquery-rails'
 gem "paperclip", "~> 5.2.1"
-gem 'masonry-rails'
+gem 'masonry-rails', '~> 0.2.4'
 gem 'acts_as_votable', '~> 0.11.1'
 gem 'devise', '~> 4.6', '>= 4.6.1'
 gem 'simple_form', '~> 4.1'
